@@ -1,0 +1,82 @@
+@charset "UTF-8";
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-navbar {
+    background-color: #a8a0e4;
+    padding: 10px 0;
+    align-items: center;
+    padding-left: 20px; 
+}
+.nav-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.nav-content span, .nav-content a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.text-column {
+    flex: 1;
+}
+footer {
+    background-color: #9e9494;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.pastel-green {
+    background-color: #77dd77; /* Example pastel green */
+}
+
+.pastel-yellow {
+    background-color: #fdfd96; /* Example pastel yellow */
+}
+
+.pastel-red {
+    background-color: #ff6961; /* Example pastel red */
+}
+
+.pastel-blue {
+    background-color: #aec6cf; /* Example pastel blue */
+}
+
+.pastel-orange {
+    background-color: #ffb347; /* Example pastel orange */
+}
+
+.pastel-purple {
+    background-color: #cda4de; /* Example pastel purple */
+}
+
+.pastel-pink {
+    background-color: #ffbfd3; /* Example pastel pink */
+}
+
+.pastel-cyan {
+    background-color: #a2d5f2; /* Example pastel cyan */
+}
+
+.pastel-mint {
+    background-color: #bdfcc9; /* Example pastel mint */
+}
